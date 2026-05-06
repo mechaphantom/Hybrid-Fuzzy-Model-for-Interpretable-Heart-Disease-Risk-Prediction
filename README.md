@@ -31,3 +31,47 @@ Experimental results show that the fuzzy risk score captures meaningful clinical
 - Scikit-learn
 - scikit-fuzzy
 - Matplotlib
+
+## Setup Instructions: 
+
+You can just download the notebook and open it in Jupyter Notebook or Google Colab environement. Or if you love fancy things, try these: 
+
+1. Clone the repository: 
+
+- `git clone https://github.com/mechaphantom/Hybrid-Fuzzy-Model-for-Interpretable-Heart-Disease-Risk-Prediction.git`
+- `cd Hybrid-Fuzzy-Model-for-Interpretable-Heart-Disease-Risk-Prediction`
+
+2. Create and activate a virtual environment (recommended):
+
+- `python -m venv venv`
+
+3. Install reqirements (we dont have it btw)
+
+- `pip install -r requirements.txt`
+
+## Dependencies
+
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `scikit-fuzzy`
+- `matplotlib`
+- `seaborn`
+- `jupyter` 
+
+You can install them by following this code: `pip install numpy pandas scikit-learn scikit-fuzzy matplotlib seaborn jupyter`
+
+## Steps to Reproduce Results
+
+1. Download or place the UCI Heart Disease dataset inside the data/ directory.
+2. Open the Jupyter Notebook:
+3. Run the notebook cells sequentially to:
+  - preprocess the dataset
+  - perform exploratory data analysis (EDA)
+  - generate fuzzy membership functions
+  - compute fuzzy risk scores
+  - train baseline ML models
+  - train hybrid fuzzy + ML models
+  - evaluate results using Accuracy, F1-score, and ROC-AUC
+    
+4. Final evaluation metrics and visualizations will be generated automatically at the end of the notebook execution
